@@ -1,0 +1,19 @@
+{
+    "name": "phpanos/laravel-event-calendar",
+    "description": "A simple event calendar for Laravel.",
+    "keywords": ["laravel", "calendar", "event"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panos",
+            "email": "phpanos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Phpanos\\EventCalendar\\": "src/"
+        }
+    },
+}
