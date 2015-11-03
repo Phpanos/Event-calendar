@@ -1,5 +1,5 @@
 {
-    "name": "phpanos/laravel-event-calendar",
+    "name": "phpanos/event-calendar",
     "description": "A simple event calendar for Laravel.",
     "keywords": ["laravel", "calendar", "event"],
     "license": "MIT",
