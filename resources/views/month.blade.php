@@ -1,3 +1,6 @@
+@extends('event::layouts.master')
+
+@section('content')
 <table>
 <tr>
     @foreach($weekDays as $dayInWeek)
@@ -13,3 +16,4 @@
     </tr>
 @endforeach
 </table>
+@stop

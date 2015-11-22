@@ -25,7 +25,7 @@ class PackageServiceProvider extends AggregateServiceProvider
         #dd(public_path('vendor/event-calendar'));
         $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'event');
         $this->publishes([
-            __DIR__.'/../../resources/assets' => public_path('vendor/event-calendar'),
+            __DIR__.'/../../public/assets' => public_path('vendor/event-calendar'),
         ], 'public');
     }
 }
